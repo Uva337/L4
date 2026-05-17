@@ -1,4 +1,5 @@
-1. Запуск проекта
+**Запуск проекта**
+
 Для запуска сервера выполните команду в корне проекта:
 
 go run cmd/app/main.go
@@ -10,7 +11,7 @@ go run cmd/app/main.go
 
 go test -v ./internal/service/...
 
-1. Создание события (POST /create_event)
+**1. Создание события (POST /create_event)**
 Запрос:
 
 curl -X POST http://localhost:8080/create_event \
@@ -24,7 +25,7 @@ curl -X POST http://localhost:8080/create_event \
 }'
 Успешный ответ: {"result": "событие создано"}
 
-2. Получение событий за день (GET /events_for_day)
+**2. Получение событий за день (GET /events_for_day)**
 Запрос:
 
 
@@ -42,7 +43,7 @@ curl -X GET "http://localhost:8080/events_for_day?user_id=1"
     }
   ]
 }
-3. Удаление события (POST /delete_event)
+**3. Удаление события (POST /delete_event)**
 Запрос:
 
 curl -X POST http://localhost:8080/delete_event \
