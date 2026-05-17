@@ -1,0 +1,11 @@
+goos: linux
+goarch: amd64
+pkg: apibench
+cpu: AMD Ryzen 7 9800X3D 8-Core Processor           
+BenchmarkFastHandler-16    	     141	   8521288 ns/op	52800009 B/op	    5635 allocs/op
+BenchmarkFastHandler-16    	     189	   6213510 ns/op	52777877 B/op	    5578 allocs/op
+BenchmarkFastHandler-16    	     190	   5864780 ns/op	52774214 B/op	    5567 allocs/op
+BenchmarkFastHandler-16    	     201	   5982871 ns/op	52776357 B/op	    5572 allocs/op
+BenchmarkFastHandler-16    	     195	   6114566 ns/op	52778642 B/op	    5581 allocs/op
+PASS
+ok  	apibench	10.343s
