@@ -37,7 +37,7 @@ curl -X GET "http://localhost:8080/events_for_day?user_id=1"
     {
       "id": "evt_100",
       "user_id": 1,
-      "title": "Собеседование на Golang разработчика",
+      "title": "дедлайн",
       "date": "2026-05-20T14:00:00Z",
       "reminder_at": "2026-05-20T13:30:00Z"
     }
